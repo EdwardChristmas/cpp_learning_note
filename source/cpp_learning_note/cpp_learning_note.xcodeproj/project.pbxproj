@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046CDDCB26E7C31000793474 /* 默认参数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046CDDCA26E7C31000793474 /* 默认参数.cpp */; };
+		046CDDCD26E7CA9F00793474 /* 默认参数1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046CDDCC26E7CA9F00793474 /* 默认参数1.cpp */; };
+		046CDDCF26E7CAE200793474 /* 默认函数2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046CDDCE26E7CAE200793474 /* 默认函数2.cpp */; };
 		68B3BD4526E7409900A2365F /* 函数重载.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68B3BD4426E7409900A2365F /* 函数重载.cpp */; };
 		68B3BD5126E7452E00A2365F /* 函数重载1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68B3BD5026E7452E00A2365F /* 函数重载1.cpp */; };
 		68B3BD5326E74B4A00A2365F /* 函数重载2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68B3BD5226E74B4A00A2365F /* 函数重载2.cpp */; };
@@ -26,6 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		046CDDCA26E7C31000793474 /* 默认参数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "默认参数.cpp"; sourceTree = "<group>"; };
+		046CDDCC26E7CA9F00793474 /* 默认参数1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "默认参数1.cpp"; sourceTree = "<group>"; };
+		046CDDCE26E7CAE200793474 /* 默认函数2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "默认函数2.cpp"; sourceTree = "<group>"; };
 		68B3BD4126E7409900A2365F /* cpp_learning_note */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_learning_note; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B3BD4426E7409900A2365F /* 函数重载.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "函数重载.cpp"; sourceTree = "<group>"; };
 		68B3BD5026E7452E00A2365F /* 函数重载1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "函数重载1.cpp"; sourceTree = "<group>"; };
@@ -67,6 +73,9 @@
 				68B3BD5026E7452E00A2365F /* 函数重载1.cpp */,
 				68B3BD5226E74B4A00A2365F /* 函数重载2.cpp */,
 				68B3BD5426E7512400A2365F /* 函数重载3.cpp */,
+				046CDDCA26E7C31000793474 /* 默认参数.cpp */,
+				046CDDCC26E7CA9F00793474 /* 默认参数1.cpp */,
+				046CDDCE26E7CAE200793474 /* 默认函数2.cpp */,
 			);
 			path = cpp_learning_note;
 			sourceTree = "<group>";
@@ -128,9 +137,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B3BD5526E7512400A2365F /* 函数重载3.cpp in Sources */,
+				046CDDCD26E7CA9F00793474 /* 默认参数1.cpp in Sources */,
 				68B3BD5126E7452E00A2365F /* 函数重载1.cpp in Sources */,
+				046CDDCF26E7CAE200793474 /* 默认函数2.cpp in Sources */,
 				68B3BD4526E7409900A2365F /* 函数重载.cpp in Sources */,
 				68B3BD5326E74B4A00A2365F /* 函数重载2.cpp in Sources */,
+				046CDDCB26E7C31000793474 /* 默认参数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

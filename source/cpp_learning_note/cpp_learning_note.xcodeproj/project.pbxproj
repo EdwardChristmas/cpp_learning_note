@@ -14,6 +14,8 @@
 		68B3BD5126E7452E00A2365F /* 函数重载1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68B3BD5026E7452E00A2365F /* 函数重载1.cpp */; };
 		68B3BD5326E74B4A00A2365F /* 函数重载2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68B3BD5226E74B4A00A2365F /* 函数重载2.cpp */; };
 		68B3BD5526E7512400A2365F /* 函数重载3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68B3BD5426E7512400A2365F /* 函数重载3.cpp */; };
+		68D93FEB26E8921B00561A2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68D93FEA26E8921B00561A2B /* main.cpp */; };
+		68D93FED26E8925000561A2B /* math.c in Sources */ = {isa = PBXBuildFile; fileRef = 68D93FEC26E8925000561A2B /* math.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,9 @@
 		68B3BD5026E7452E00A2365F /* 函数重载1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "函数重载1.cpp"; sourceTree = "<group>"; };
 		68B3BD5226E74B4A00A2365F /* 函数重载2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "函数重载2.cpp"; sourceTree = "<group>"; };
 		68B3BD5426E7512400A2365F /* 函数重载3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "函数重载3.cpp"; sourceTree = "<group>"; };
+		68D93FEA26E8921B00561A2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		68D93FEC26E8925000561A2B /* math.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = math.c; sourceTree = "<group>"; };
+		68D93FEE26E8925C00561A2B /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 		68B3BD3826E7409900A2365F = {
 			isa = PBXGroup;
 			children = (
+				68D93FE926E891E500561A2B /* extern */,
 				68B3BD4326E7409900A2365F /* cpp_learning_note */,
 				68B3BD4226E7409900A2365F /* Products */,
 			);
@@ -78,6 +84,16 @@
 				046CDDCE26E7CAE200793474 /* 默认函数2.cpp */,
 			);
 			path = cpp_learning_note;
+			sourceTree = "<group>";
+		};
+		68D93FE926E891E500561A2B /* extern */ = {
+			isa = PBXGroup;
+			children = (
+				68D93FEA26E8921B00561A2B /* main.cpp */,
+				68D93FEC26E8925000561A2B /* math.c */,
+				68D93FEE26E8925C00561A2B /* header.h */,
+			);
+			path = extern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +158,8 @@
 				046CDDCF26E7CAE200793474 /* 默认函数2.cpp in Sources */,
 				68B3BD4526E7409900A2365F /* 函数重载.cpp in Sources */,
 				68B3BD5326E74B4A00A2365F /* 函数重载2.cpp in Sources */,
+				68D93FEB26E8921B00561A2B /* main.cpp in Sources */,
+				68D93FED26E8925000561A2B /* math.c in Sources */,
 				046CDDCB26E7C31000793474 /* 默认参数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
